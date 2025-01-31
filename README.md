@@ -31,7 +31,7 @@ To run the portfolio website locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sarvesh0906/Portfolio-Website
-   cd portfolio
+   cd Portfolio-Website
    ```
 
 2. Install the dependencies:
