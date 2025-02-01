@@ -39,7 +39,7 @@ const transitionProvider = ({ children }) => {
                     <Navbar />
                 </div>
 
-                <div className="lg:h-[calc(100vh-6rem)] h-full">
+                <div className="lg:h-[calc(100vh-6rem)] h-full w-full">
                     {children}
                 </div>
             </div>

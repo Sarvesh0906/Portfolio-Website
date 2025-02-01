@@ -251,16 +251,16 @@ const PortfolioPage = () => {
 
     return (
         <motion.div
-            className="h-full w-full"
+            className="h-full w-screen"
             initial={{ y: "-200vh" }}
             animate={{ y: "0%" }}
             transition={{ duration: 1, ease: "easeOut" }}
         >
-            <div className="h-[600vh] w-full relative" ref={ref}>
-                <div className="flex w-screen h-[calc(100vh-6rem)] items-center justify-center text-5xl sm:text-7xl md:text-8xl text-center">My Works</div>
+            <div className="h-[600vh] w-screen relative" ref={ref}>
+                <div className="flex w-screen h-[calc(100vh-6rem)] items-center justify-center text-8xl text-center">My Works</div>
 
                 <div className="sticky top-0 left-0 flex h-screen w-full gap-4 items-center overflow-hidden">
-                    <motion.div style={{ x, maxHeight: "100vh" }} className="flex">
+                    <motion.div style={{ x }} className="flex">
                         <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
                         {items.map((item) => (
                             <div
