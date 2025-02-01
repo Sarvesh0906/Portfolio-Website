@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Image from "next/image";
 import Link from "next/link";
@@ -242,6 +242,13 @@ const PortfolioPage = () => {
     const { scrollYProgress } = useScroll({ target: ref });
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
 
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+        return () => {
+            document.body.style.overflowX = 'auto';
+        };
+    }, []);
+
     return (
         <motion.div
             className="h-full w-full"
@@ -250,10 +257,10 @@ const PortfolioPage = () => {
             transition={{ duration: 1, ease: "easeOut" }}
         >
             <div className="h-[600vh] w-full relative" ref={ref}>
-                <div className="flex w-screen h-[calc(100vh-6rem)] items-center justify-center text-8xl text-center">My Works</div>
+                <div className="flex w-screen h-[calc(100vh-6rem)] items-center justify-center text-5xl sm:text-7xl md:text-8xl text-center">My Works</div>
 
-                <div className="sticky top-0 flex h-screen w-full gap-4 items-center overflow-hidden">
-                    <motion.div style={{ x }} className="flex">
+                <div className="sticky top-0 left-0 flex h-screen w-full gap-4 items-center overflow-hidden">
+                    <motion.div style={{ x, maxHeight: "100vh" }} className="flex">
                         <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
                         {items.map((item) => (
                             <div
