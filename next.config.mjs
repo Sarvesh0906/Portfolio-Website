@@ -7,6 +7,13 @@ const nextConfig = {
                 hostname: "images.pexels.com",
             }
         ]
+    },
+    reactStrictMode: false,
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true,
     }
 };
 

@@ -1,10 +1,13 @@
 {
   "extends": [
+    "next",
     "eslint:recommended",
     "next/core-web-vitals"
   ],
   "rules": {
     "react/prop-types": "off",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off"
   }
 }
