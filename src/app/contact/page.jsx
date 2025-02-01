@@ -62,7 +62,7 @@ const ContactPage = () => {
                         ))}
                         😊
                     </div>
-                    <div className="text-lg mt-12 md:mb-10 md:mt-16 lg:mt-4 lg:p-7 xl:p-10 text-justify max-w-[80%] lg:max-w-full">
+                    <div className="text-lg mt-12 md:mb-10 md:mt-16 lg:mt-4 lg:p-7 xl:p-10 text-justify px-4 sm:px-8 lg:px-12">
                         <p>I'm currently seeking exciting internship and job opportunities where I can contribute my skills and grow professionally.</p> 
                         <p className="italic my-5">If you're looking for a dedicated and enthusiastic candidate for your team, please feel free to reach out.</p> 
                         <p>I look forward to connecting and exploring potential collaborations!</p>

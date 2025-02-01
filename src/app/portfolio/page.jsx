@@ -41,8 +41,8 @@ const items = [
                     <>
                         The Haversine formula calculates the great-circle distance between two points on the Earth's surface using their latitude and longitude. It accounts for the Earth's spherical shape, ensuring high accuracy. <br />
                         The formula is defined as follows:
-
-                        <BlockMath>
+                    
+                        <BlockMath className="text-sm">
                             {`
                                 a = \\sin^2\\left(\\frac{\\Delta\\phi}{2}\\right) + \\cos(\\phi_1) \\cdot \\cos(\\phi_2) \\cdot \\sin^2\\left(\\frac{\\Delta\\lambda}{2}\\right) \\\\
                                 c = 2 \\cdot \\text{atan2}(\\sqrt{a}, \\sqrt{1 - a}) \\\\
@@ -292,7 +292,7 @@ const PortfolioPage = () => {
             {/* Modal Popup */}
             {selectedProject && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-md text-justify">
-                    <div className="bg-white p-4 md:p-6 lg:p-8 rounded-lg w-1/2 h-[90vh] overflow-y-scroll">
+                    <div className="bg-white p-4 md:p-6 lg:p-8 rounded-lg w-[80%] sm:w-[70%] md:w-[60%] lg:w-1/2 h-[90vh] overflow-y-scroll">
                         <button
                             className="mb-4 text-black border-2 border-black/50 transition-all duration-500 hover:bg-black hover:text-white py-2 px-3 rounded-lg font-bold flex items-center justify-center gap-2"
                             onClick={() => setSelectedProject(null)}
@@ -303,7 +303,7 @@ const PortfolioPage = () => {
 
                         <div className="flex flex-col px-4 md:px-6 lg:px-8 xl:px-14 my-10 text-sm">
                             {/* Title */}
-                            <h1 className="text-3xl font-bold text-left">{selectedProject.title}</h1>
+                            <h1 className="text-xl lg:text-3xl font-bold text-left">{selectedProject.title}</h1>
 
                             {/* Image Section */}
                             <div className="relative flex justify-center items-center my-4">
@@ -373,9 +373,9 @@ npm install`}
                         </div>
 
                         {/* Footer */}
-                        <footer className="mt-10 text-gray-500 text-sm text-center">
-                            &copy;2025 Copyright | All Rights Reserved <br />
-                            Built with passion and modern web technologies.
+                        <footer className="text-gray-800 text-sm text-center">
+                            <span>&copy;2025 Copyright | All Rights Reserved</span> <br />
+                            <span className="italic text-sm">Built with passion and modern web technologies.</span>
                         </footer>
                     </div>
                 </div>

@@ -41,7 +41,7 @@ const Services = () => {
             transition={{ duration: 1 }}
         >
             <div className="min-h-[80vh] flex items-center py-12 lg:p-0">
-                <div className="container mx-auto px-8 sm:px-12 lg:px-16">
+                <div className="container mx-auto px-8 sm:px-10 md:px-14 lg:px-16">
                     <div className="grid grid-cols-1 gap-[60px] lg:gap-[30px] xl:gap-[60px] md:grid-cols-2 xl:grid-cols-4">
                         {services.map((service, index) => {
                             return (

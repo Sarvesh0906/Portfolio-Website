@@ -29,7 +29,7 @@ const AboutPage = () => {
             {/* CONTAINER */}
             <div className="h-full overflow-scroll lg:flex no-scrollbar lg:gap-10 xl:gap-0" ref={containerRef}>
                 {/* TEXT CONTAINER */}
-                <div className="p-4 relative sm:p-8 md:p-12 lg:p-20 xl:px-32 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-60 lg:pr-0 lg:w-1/2">
+                <div className="p-8 relative sm:p-10 md:p-14 lg:p-20 xl:px-32 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-60 lg:pr-0 lg:w-1/2">
                     {/* BIOGRAPHY CONTAINER */}
                     <div className="flex flex-col gap-8 justify-center">
                         {/* BIOGRAPHY IMAGE */}
@@ -335,9 +335,9 @@ const AboutPage = () => {
                     </div>
   
                     {/* FOOTER */}
-                    <footer className="text-gray-800 text-xl text-center pb-0 md:pb-10">
+                    <footer className="text-gray-800 text-lg lg:text-xl text-center pb-0 md:pb-10">
                         <span>&copy;2025 Copyright | All Rights Reserved</span> <br />
-                        <span className="italic">Built with passion and modern web technologies.</span>
+                        <span className="italic text-sm sm:text-lg">Built with passion and modern web technologies.</span>
                     </footer>
                 </div>
 

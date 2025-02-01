@@ -32,7 +32,7 @@ const HomePage = () => {
             animate={{ y: "0%" }}
             transition={{ duration: 1 }}
         >
-            <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 h-full">
+            <div className="container mx-auto px-8 sm:px-10 md:px-14 lg:px-20 xl:px-48 h-full">
                 <div className="flex flex-col xl:gap-10 xl:flex-row items-center justify-between xl:pt-3 xl:pb-10">
                     {/* TEXT */}
                     <div className="text-center xl:text-left order-2 xl:order-none w-full lg:w-3/4 xl:w-1/2">
