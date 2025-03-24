@@ -8,15 +8,15 @@ const stats = [
         text: "Projects Crafted"
     },
     {
-        num: 250,
+        num: 300,
         text: "Leetcode Problems Solved"
     },
     {
-        num: 190,
+        num: 230,
         text: "GFG Problems Solved"
     },
     {
-        num: 65,
+        num: 70,
         text: "Code Commits"
     }
 ]
