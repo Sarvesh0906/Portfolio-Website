@@ -1,0 +1,377 @@
+{
+  "Projects": [
+    {
+        "show": true,
+        "color": "blueToBlue",
+      "title": "AttendEase - Virtual Attendance System",
+      "desc": [
+        "AttendEase is a smart attendance management system built using Next.js, MongoDB, JavaScript, NextAuth, OAuth, and Shadcn UI. Designed specifically for educational institutions, it leverages proximity detection and dynamic QR codes to ensure secure and proxy-free attendance marking.",
+        "It simplifies the process of tracking attendance for virtual and physical events. The application introduces a dynamic QR-based attendance system combined with geolocation verification, ensuring accurate and secure attendance tracking for both students and teachers. Key features include role-based access control, proximity-based attendance validation using the Haversine formula, and real-time analytics. Hosting is managed on Vercel for seamless deployment and scalability.",
+        "The system allows teachers or hosts to define the attendance session by setting the duration and geolocation radius. Students can mark their attendance only within the allowed proximity, significantly reducing the chances of proxy. Each class session generates a new QR code every 30 seconds, making the process dynamic and secure.",
+        "AttendEase features a robust dashboard where teachers can view analytics, download attendance records in Excel format, and monitor class-wise participation. Students have access to their personal attendance history and session records, fostering transparency and accountability.",
+        "This project reflects my interest in combining web development with real-world problem solving, especially within the education sector. It promotes fairness and simplifies attendance tracking for both educators and students."
+      ],
+      "year": "2024",
+      "status": "Deployed on Vercel",
+      "preview": "https://testing-app-seven-rho.vercel.app/",
+      "code": "https://github.com/Sarvesh0906/DesignProject-",
+      "thumbnail": "/image/projects/web/attendease/attend2.png",
+      "slug": "attendease",
+      "images": [
+        "/image/projects/web/attendease/attend1.png",
+        "/image/projects/web/attendease/attend2.png",
+        "/image/projects/web/attendease/attend3.png",
+        "/image/projects/web/attendease/attend4.png",
+        "/image/projects/web/attendease/attend5.png"
+      ],
+      "tech": [
+        "NextJS",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "MongoDB",
+        "NextAuth",
+        "OAuth"
+      ],
+      "features": [
+        {
+          "id": 1,
+          "title": "Dynamic QR Code Generation",
+          "desc": "Teachers can initiate an attendance session during which a QR code is dynamically generated. The QR code updates every 30 seconds to enhance security and prevent unauthorized access. Students must scan this QR code to retrieve a unique key required for attendance marking."
+        },
+        {
+          "id": 2,
+          "title": "Proximity-Based Validation",
+          "desc": "Proximity-based validation ensures that students are physically present within a specific radius of the teacher before marking their attendance. This feature leverages GPS coordinates for location validation and utilizes the Haversine formula to compute the distance between two geographic points."
+        },
+        {
+          "id": 3,
+          "title": "Haversine Formula",
+          "desc": "The Haversine formula calculates the great-circle distance between two points on the Earth's surface using their latitude and longitude. It accounts for the Earth's spherical shape, ensuring high accuracy. The formula: a = sin²(Δφ/2) + cos(φ₁)·cos(φ₂)·sin²(Δλ/2), c = 2·atan2(√a, √(1−a)), d = R·c, where φ₁ and φ₂ are latitudes, Δφ is the difference in latitudes, Δλ is the difference in longitudes, R is Earth's radius, and d is the distance."
+        },
+        {
+          "id": 4,
+          "title": "Analytics and History",
+          "desc": "The application offers detailed analytics and attendance history, catering to the needs of both teachers and students. This feature enhances transparency and supports effective classroom management by providing actionable insights and comprehensive data."
+        },
+        {
+          "id": 5,
+          "title": "Automated Reports",
+          "desc": "Teachers can export a Microsoft Excel sheet containing attendance session details for students enrolled in the class. Present students are marked as '1,' while absent students are marked as '0,' along with the date of the attendance session. The Excel sheet can be downloaded from the history section of the respective classes."
+        },
+        {
+          "id": 6,
+          "title": "Attendance Correction",
+          "desc": "Teachers can manually update a student's attendance status in the history section of the respective classes. This feature allows teachers to handle cases where the student-side app fails or malfunctions and provides the authority to mark students absent in cases of malpractice without starting a new attendance session."
+        }
+      ],
+      "tech_stack": [
+        {
+          "id": 1,
+          "title": "Frontend",
+          "desc": "Next.js, React, and Tailwind CSS for a responsive and dynamic user interface."
+        },
+        {
+          "id": 2,
+          "title": "Authentication",
+          "desc": "NextAuth for secure, role-based authentication. Users can also log in using their Google emails."
+        },
+        {
+          "id": 3,
+          "title": "Database",
+          "desc": "MongoDB for efficient data storage and retrieval."
+        },
+        {
+          "id": 4,
+          "title": "Hosting",
+          "desc": "Vercel for continuous deployment and scalability."
+        },
+        {
+          "id": 5,
+          "title": "Styling",
+          "desc": "ShadCN and Tailwind CSS for pre-built components and custom design."
+        }
+      ]
+    },
+    {
+      "show": true,
+      "color": "blueToViolet",
+      "title": "EdgeFit - AI-Powered Fitness Platform",
+      "desc": [
+        "EdgeFit is a cutting-edge fitness platform that combines artificial intelligence with personalized fitness tracking to help users achieve their health and wellness goals. The platform offers a comprehensive suite of features powered by advanced machine learning models and a modern tech stack.",
+        "The platform features AI-powered workout recommendations, smart nutrition planning, real-time progress tracking, and an intelligent chatbot assistant. Built with Next.js 15, TypeScript, and FastAPI, EdgeFit delivers a seamless experience across all devices with a modern, intuitive interface.",
+        "The application uses a modern, accessible design system with a carefully curated color palette and typography. The platform's architecture ensures scalability and performance, with separate frontend and backend services communicating through a RESTful API."
+      ],
+      "year": "2025",
+      "status": "Deployed on Vercel",
+      "preview": "https://edgefit.vercel.app/",
+      "code": "https://github.com/Sarvesh0906/Edgefit",
+      "thumbnail": "/image/projects/web/edgefit/edgefit1.png",
+      "images": [
+        "/image/projects/web/edgefit/edgefit1.png",
+        "/image/projects/web/edgefit/edgefit2.png",
+        "/image/projects/web/edgefit/edgefit3.png",
+        "/image/projects/web/edgefit/edgefit4.png",
+        "/image/projects/web/edgefit/edgefit5.png",
+        "/image/projects/web/edgefit/edgefit6.png",
+        "/image/projects/web/edgefit/edgefit7.png",
+        "/image/projects/web/edgefit/edgefit8.png",
+        "/image/projects/web/edgefit/edgefit9.png",
+        "/image/projects/web/edgefit/edgefit10.png",
+        "/image/projects/web/edgefit/edgefit11.png",
+        "/image/projects/web/edgefit/edgefit12.png",
+        "/image/projects/web/edgefit/edgefit13.png"
+      ],
+      "tech": [
+        "Next.js 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "FastAPI",
+        "React Hook Form",
+        "Recharts"
+      ],
+      "slug": "edgefit",
+      "features": [
+        {
+          "id": 1,
+          "title": "AI-Powered Workout Recommendations",
+          "desc": "Personalized exercise routines generated using machine learning models trained on extensive fitness data, ensuring optimal workout plans for each user's specific goals and capabilities."
+        },
+        {
+          "id": 2,
+          "title": "Smart Nutrition Planning",
+          "desc": "Customized meal plans and dietary recommendations based on user profiles and goals, helping users maintain a balanced diet that complements their fitness journey."
+        },
+        {
+          "id": 3,
+          "title": "Real-time Progress Tracking",
+          "desc": "Advanced analytics and visualization of fitness metrics and achievements, providing users with detailed insights into their performance and progress over time."
+        },
+        {
+          "id": 4,
+          "title": "Intelligent Chatbot Assistant",
+          "desc": "AI-driven chatbot for instant fitness and nutrition guidance, offering personalized support and answering user queries in real-time."
+        },
+        {
+          "id": 5,
+          "title": "User Authentication",
+          "desc": "Secure login and profile management system with JWT-based authentication, ensuring user data privacy and security."
+        },
+        {
+          "id": 6,
+          "title": "Responsive Design",
+          "desc": "Seamless experience across all devices with a modern, intuitive interface built using Tailwind CSS and custom animations."
+        }
+      ],
+      "tech_stack": [
+        {
+          "id": 1,
+          "title": "Frontend",
+          "desc": "Next.js 15 with React 19, TypeScript, and Tailwind CSS for a responsive and dynamic user interface. Uses shadcn/ui components and Radix UI primitives for consistent design."
+        },
+        {
+          "id": 2,
+          "title": "Backend",
+          "desc": "FastAPI (Python) with custom database implementation and JWT-based authentication system. Features custom LLM models for fitness recommendations."
+        },
+        {
+          "id": 3,
+          "title": "State Management",
+          "desc": "React Hook Form with Zod validation for efficient form handling and data validation."
+        },
+        {
+          "id": 4,
+          "title": "Data Visualization",
+          "desc": "Recharts for creating interactive and responsive charts to display fitness metrics and progress."
+        },
+        {
+          "id": 5,
+          "title": "Development Tools",
+          "desc": "ESLint for code quality, TypeScript for type safety, and Git for version control."
+        }
+      ]
+    },
+    {
+      "show": true,
+      "color": "violetToPurple",
+      "title": "Funding Platform for Creators",
+      "desc": [
+        "Get Me A Chai is a creator-centric platform that enables artists, writers, musicians, and other content creators to connect with their audience and receive support through various channels. The platform offers creators the flexibility to share exclusive content, host live events, and receive direct contributions from their fans.",
+        "Creators can create personalized profiles, showcase their work, and engage with their audience through interactive features. Built with Next.js, Tailwind CSS, and MongoDB, the platform ensures a seamless user experience and secure payment processing for creators and users."
+      ],
+      "year": "2024",
+      "status": "In Progress",
+      "preview": null,
+      "code": "https://github.com/Sarvesh0906/FullStack-Projects/tree/main/get-me-a-chai",
+      "thumbnail": "/image/projects/web/getMeChai/getMeChai1.png",
+      "images": [
+        "/image/projects/web/getMeChai/getMeChai1.png",
+        "/image/projects/web/getMeChai/getMeChai2.png",
+        "/image/projects/web/getMeChai/getMeChai3.png",
+        "/image/projects/web/getMeChai/getMeChai4.png",
+        "/image/projects/web/getMeChai/getMeChai5.png",
+        "/image/projects/web/getMeChai/getMeChai6.png",
+        "/image/projects/web/getMeChai/getMeChai7.png"
+      ],
+      "tech": [
+        "NextJS",
+        "Tailwind CSS",
+        "NextAuth",
+        "MongoDB",
+        "Razorpay",
+        "Vercel"
+      ],
+      "slug": "get-me-a-chai",
+      "features": [
+        {
+          "id": 1,
+          "title": "Responsive Design",
+          "desc": "A mobile-first design ensuring a seamless user experience across all screen sizes, from smartphones to desktops. The interface dynamically adjusts to different screen resolutions, providing optimal usability."
+        },
+        {
+          "id": 2,
+          "title": "Creator Dashboard",
+          "desc": "A comprehensive dashboard where creators can monitor audience engagement, analyze performance metrics, and track their earnings over time."
+        },
+        {
+          "id": 3,
+          "title": "Secure Payments",
+          "desc": "Built-in secure payment processing with multiple payment gateway integrations to ensure seamless and safe transactions for users."
+        },
+        {
+          "id": 4,
+          "title": "Content Hosting",
+          "desc": "Supports various media formats for content uploads, including images, videos, and documents, giving creators the flexibility to share engaging content."
+        },
+        {
+          "id": 5,
+          "title": "User Authentication",
+          "desc": "Secure and scalable user authentication implemented using NextAuth.js for efficient session management and role-based access control."
+        }
+      ],
+      "tech_stack": [
+        {
+          "id": 1,
+          "title": "NextJS",
+          "desc": "A powerful React framework for building fast, scalable static and dynamic web applications with optimized server-side rendering and file-based routing."
+        },
+        {
+          "id": 2,
+          "title": "Tailwind CSS",
+          "desc": "A utility-first CSS framework for rapidly building responsive and custom-designed user interfaces."
+        },
+        {
+          "id": 3,
+          "title": "NextAuth",
+          "desc": "A robust and customizable authentication solution for managing secure user sessions in Next.js applications."
+        },
+        {
+          "id": 4,
+          "title": "MongoDB",
+          "desc": "A NoSQL database known for its flexibility, scalability, and high performance, ideal for storing user data and creator content metadata."
+        },
+        {
+          "id": 5,
+          "title": "Razorpay",
+          "desc": "A leading payment gateway offering secure and reliable payment solutions, enabling seamless transactions between users and creators."
+        },
+        {
+          "id": 6,
+          "title": "Vercel",
+          "desc": "A cloud platform for static sites and serverless functions that provides a scalable and lightning-fast deployment environment."
+        }
+      ]
+    },
+    {
+      "show": true,
+      "color": "purpleToRed",
+      "title": "CryptoWorld - Advanced Cryptocurrency Dashboard",
+      "desc": [
+        "CryptoWorld is a modern cryptocurrency analytics platform built with React and Redux Toolkit, offering real-time market data, comprehensive coin analytics, detailed cryptocurrency exchange stats, and cryptocurrency news aggregation.",
+        "The platform features a global crypto statistics dashboard, detailed coin analytics with interactive charts, exchange comparison tools with trust scores, and a news aggregator with category filtering. Built with a mobile-first approach, it ensures a seamless experience across all devices.",
+        "The application leverages Redux Toolkit Query for efficient data fetching and caching, Chart.js for interactive data visualization, and implements comprehensive error handling with toast notifications. The architecture ensures optimal performance through lazy loading, memoization, and API caching."
+      ],
+      "year": "2025",
+      "status": "Deployed on Netlify",
+      "preview": "https://cryptoworld007.netlify.app/",
+      "code": "https://github.com/Sarvesh0906/crypto-world",
+      "thumbnail": "/image/projects/web/cryptoworld/crypto1.png",
+      "images": [ 
+        "/image/projects/web/cryptoworld/crypto1.png",  
+        "/image/projects/web/cryptoworld/crypto2.png",
+        "/image/projects/web/cryptoworld/crypto3.png",
+        "/image/projects/web/cryptoworld/crypto4.png",
+        "/image/projects/web/cryptoworld/crypto5.png",
+        "/image/projects/web/cryptoworld/crypto6.png",
+        "/image/projects/web/cryptoworld/crypto7.png"
+      ],
+      "tech": [
+        "React 19",
+        "Redux Toolkit",
+        "Material-UI v7",
+        "Chart.js v4",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "slug": "cryptoworld",
+      "features": [
+        {
+          "id": 1,
+          "title": "Global Crypto Statistics Dashboard",
+          "desc": "Comprehensive overview of cryptocurrency market data with real-time price tracking and market trends visualization."
+        },
+        {
+          "id": 2,
+          "title": "Detailed Coin Analytics",
+          "desc": "Interactive charts and detailed analytics for individual cryptocurrencies, powered by Chart.js for advanced data visualization."
+        },
+        {
+          "id": 3,
+          "title": "Exchange Comparison",
+          "desc": "Advanced tools for comparing cryptocurrency exchanges with trust scores and detailed performance metrics."
+        },
+        {
+          "id": 4,
+          "title": "News Aggregator",
+          "desc": "Real-time cryptocurrency news aggregation from top sources with category filtering and search capabilities."
+        },
+        {
+          "id": 5,
+          "title": "Performance Optimizations",
+          "desc": "Implementation of lazy loading, memoization, and API caching for optimal performance and user experience."
+        },
+        {
+          "id": 6,
+          "title": "Responsive Design",
+          "desc": "Mobile-first approach with responsive navigation and optimized layouts for all device sizes."
+        }
+      ],
+      "tech_stack": [
+        {
+          "id": 1,
+          "title": "Frontend Architecture",
+          "desc": "React 19 with Vite build tool, Redux Toolkit with RTK Query for state management, and Material-UI v7 for UI components."
+        },
+        {
+          "id": 2,
+          "title": "APIs & Data",
+          "desc": "Integration with CoinRanking API for crypto market data, News API 14 for news aggregation, and Coingecko API for exchange information."
+        },
+        {
+          "id": 3,
+          "title": "State Management",
+          "desc": "Redux Toolkit and RTK Query for robust state management, automatic caching, and background refetching."
+        },
+        {
+          "id": 4,
+          "title": "Data Visualization",
+          "desc": "Chart.js v4 integration for interactive and responsive data visualization of cryptocurrency metrics."
+        },
+        {
+          "id": 5,
+          "title": "Development Tools",
+          "desc": "Tailwind CSS for styling, ESLint & Prettier for code quality, and React Toastify for notifications."
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    @apply box-border;
+}
+html {
+    @apply scroll-smooth;
+}
+
 @layer base {
     body {
         @apply leading-loose;

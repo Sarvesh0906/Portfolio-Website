@@ -4,13 +4,23 @@ import React from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 
-const navLink = ({ link }) => {
+const NavLink = ({ link }) => {
     const pathName = usePathname();
-    console.log(pathName);
+
+    const isActive =
+    link.url === "/"
+        ? pathName === "/"
+        : pathName.startsWith(link.url);
+
 
     return (
-        <Link className={`rounded py-2 px-3 ${pathName === link.url && "bg-black text-white"}`} href={link.url}>{link.title}</Link>
-    )
+        <Link
+            href={link.url}
+            className={`rounded py-2 px-3 ${isActive ? "bg-black text-white" : ""}`}
+        >
+            {link.title}
+        </Link>
+    );
 }
- 
-export default navLink
+
+export default NavLink;

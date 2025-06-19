@@ -8,18 +8,18 @@ const Photo = () => {
         <div className="w-full h-full relative">
             <motion.div initial={{ opacity: 0 }} animate={{
                 opacity: 1,
-                transition: { delay: 2, duration: 0.4, ease: 'easeIn' },
+                transition: { delay: 1, duration: 0.4, ease: 'easeIn' },
             }}>
                 {/* IMAGE */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{
                         opacity: 1,
-                        transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' },
+                        transition: { delay: 1.5, duration: 0.4, ease: 'easeInOut' },
                     }}
                     className="w-[293px] h-[293px] xl:w-[494px] xl:h-[494px] absolute top-1 left-1 xl:top-[6px] xl:left-[6px]"
                 >
-                    <Image src="/images/photo2.png" priority quality={100} fill alt="" className="object-contain rounded-full" />
+                    <Image src="/image/photo2.png" priority quality={100} fill alt="" className="object-contain rounded-full" />
                 </motion.div>
 
                 {/* CIRCLE */}
