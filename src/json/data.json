@@ -294,15 +294,15 @@
       "status": "Deployed on Netlify",
       "preview": "https://cryptoworld007.netlify.app/",
       "code": "https://github.com/Sarvesh0906/crypto-world",
-      "thumbnail": "/image/projects/web/cryptoworld/crypto1.png",
+      "thumbnail": "/image/projects/web/cryptoWorld/crypto1.png",
       "images": [ 
-        "/image/projects/web/cryptoworld/crypto1.png",  
-        "/image/projects/web/cryptoworld/crypto2.png",
-        "/image/projects/web/cryptoworld/crypto3.png",
-        "/image/projects/web/cryptoworld/crypto4.png",
-        "/image/projects/web/cryptoworld/crypto5.png",
-        "/image/projects/web/cryptoworld/crypto6.png",
-        "/image/projects/web/cryptoworld/crypto7.png"
+        "/image/projects/web/cryptoWorld/crypto1.png",  
+        "/image/projects/web/cryptoWorld/crypto2.png",
+        "/image/projects/web/cryptoWorld/crypto3.png",
+        "/image/projects/web/cryptoWorld/crypto4.png",
+        "/image/projects/web/cryptoWorld/crypto5.png",
+        "/image/projects/web/cryptoWorld/crypto6.png",
+        "/image/projects/web/cryptoWorld/crypto7.png"
       ],
       "tech": [
         "React 19",

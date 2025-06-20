@@ -50,7 +50,7 @@ const HireMe = () => {
                 </Link>
             </div>
 
-            <div className="absolute bottom-0 w-[95%] pb-4">
+            <div className="absolute bottom-0 w-[95%]">
                 <Footer />
             </div>
         </div >
